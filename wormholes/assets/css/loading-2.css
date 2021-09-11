@@ -1,0 +1,28 @@
+#box{
+	width:100vw;
+	height:100vh;
+	overflow: hidden;
+	background:#000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#h1,
+.ml15 {
+	font-weight: 900;
+	font-size: 5em;
+	letter-spacing: 0.3em;
+	color:#216fbd;
+	cursor:pointer
+}
+
+#h1{
+	display: none;
+}
+
+.ml15 .loading-2 {
+	display: inline-block;
+	line-height: 1em;
+}
+
