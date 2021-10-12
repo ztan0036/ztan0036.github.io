@@ -10,14 +10,14 @@
     --bodyBgColor: #fff;
     -webkit--bodyBgColor: #fff;
     --backBgImg1: url(assets/images/close-000.svg);
-    -webkit--backBgImg1: url(assets/images/close-000.svg);
+    -webkit--backBgImg1: url(../images/close-000.svg);
     
     --prevImg1: url(assets/images/prev-000.svg);
-    -webkit--prevImg1: url(assets/images/prev-000.svg);
+    -webkit--prevImg1: url(../images/prev-000.svg);
 
     --nextImg1: url(assets/images/next-000.svg);
-    -webkit--nextImg1: url(assets/images/next-000.svg);
+    -webkit--nextImg1: url(../images/next-000.svg);
 
     --logoBgImg: url(assets/images/logo-000.svg);
-    -webkit--logoBgImg: url(assets/images/logo-000.svg);
+    -webkit--logoBgImg: url(../images/logo-000.svg);
 }
