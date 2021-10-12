@@ -19,7 +19,10 @@ section {
   scroll-snap-align: start;
   scroll-snap-stop: normal;
 }
-
+@font-face {
+  font-family: "Garamond";
+  src: url("../font/EBGaramond-VariableFont_wght.ttf");
+}
 @font-face {
   font-family: "Marker";
   src: url("../font/Marker-Felt-Thin.ttf");
@@ -622,9 +625,9 @@ ol {
   margin-top: 6vh;
   margin-left: 15vw;
   font-size: 0.8em;
-  line-height: 0.9em;
-  font-family: "Courier New", Courier, monospace;
-  -webkit-text-stroke: 1px;
+  line-height: 1.1em;
+  font-family: "Garamond";
+  -webkit-text-stroke: 0.5px;
   overflow: auto;
 }
 
@@ -652,7 +655,7 @@ ol {
 #detail .item img {
   /* width: 100%; */
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0 15vw;
   height: 100%;
 }
 
@@ -661,11 +664,13 @@ ol {
   left: -12vw;
   top: 5vw;
   font-size: 4vw;
+  
 }
 #detail .item .desc {
   left: -8vw;
   top: 15vw;
   font-size: 1.5vw;
+  line-height: 1em;
 }
 #d1,
 #d2,
@@ -674,13 +679,13 @@ ol {
   max-height: 100vh;
 }
 .detail .page-con {
-  padding: 3vh 1vw;
+  padding: 7vh 2vw 0 2vw;
   column-count: 3;
-  font-size: 0.6em;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "EBGaramond";
   -webkit-text-stroke: 0.3px;
   overflow: auto;
-  width: 100%;
+  font-size: 0.65em;
+  line-height: 1.3em;
 }
 
 .detail .page-con .item {
@@ -688,7 +693,9 @@ ol {
 }
 .detail-r .page-con {
   height: 100%;
-  font-size: 1em;
+  font-size: 0.75em;
+  line-height: 1.3em;
+  font-family: "EBGaramond";
 }
 .p1A1 .img1 {
   position: absolute;
@@ -705,18 +712,16 @@ ol {
 .p1A1 .text-con {
   position: absolute;
   bottom: 2vw;
-  left: 36vw;
+  margin-left: 36vw;
   width: 24vw;
-  font-size: 0.6em;
-  line-height: 0.95em;
   overflow: auto;
-  height: 50vh;
+  height: 40vh;
   color: var(--aFontColor);
 }
 .p1A1 .sider-list {
   position: absolute;
   right: 2vw;
-  top: 7vh;
+  bottom: 4vh;
   letter-spacing: 5px;
 }
 .p1A1 .sider-list ul {
@@ -750,7 +755,9 @@ ol {
 #detail .detail-r .text-con {
   column-count: auto;
   position: absolute;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 0.65em;
+  left: 1.3em;
+  font-family: "EBGaramond";
   -webkit-text-stroke: 0.3px;
   overflow: auto;
 }
@@ -818,43 +825,42 @@ ol {
 }
 .p1C3 .text-con,
 .p1C2 .text-con {
-  width: 39vw;
-  font-size: 0.5em !important;
+  width: 38vw;
+  font-size: 0.55em !important;
   height: 19vh;
   overflow: hidden;
-  padding: 1vw !important;
+  padding: 3vh 0 !important;
 }
 .p1C2 .t1 {
-  left: 49vw;
-  top: 52vh;
+  margin-left: 48vw;
+  top: 55vh;
 }
 .p1C2 .t2 {
-  height: 24vh;
-  width: 45vw;
-  left: 43vw;
-  top: 72vh;
+  height: 28vh;
+  width: 46vw;
+  margin-left: 40vw;
+  top: 73vh;
 }
 .p1C2 .line {
-  width: 36vw;
-  left: 50vw;
-  top: 50vh;
+  width: 37vw;
+  margin-left: 47.5vw;
+  top: 53vh;
 }
 .p1C3 .t1 {
-  top: 7vh;
-  left: 9vw;
+  top: 13vh;
+  margin-left: 12vw;
   width: 30vw;
   height: 14vh;
 }
 .p1C3 .t2 {
-  top: 23vh;
-  width: 36vw;
+  top: 25vh;
   height: 35vh;
-  left: 3vw;
+  margin-left: 2vw;
 }
 .p1C3 .line {
   top: 60vh;
-  width: 36vw;
-  left: 3vw;
+  width: 37vw;
+  margin-left: 1.5vw;
 }
 .p1C3 .i1 {
   width: 28vw;
@@ -863,9 +869,9 @@ ol {
   z-index: 9;
 }
 .p1C3 .i2 {
-  width: 25vw;
+  width: 26vw;
   right: 5vw;
-  top: 46vh;
+  top: 45vh;
   z-index: 1;
 }
 .p1C3 .i1 h3 {
@@ -890,21 +896,22 @@ ol {
   top: 12vw;
 }
 .p2A2 .text-con {
-  width: 39vw;
+  width: 38vw;
   font-size: 0.5em !important;
   height: 19vh;
   overflow: hidden;
-  padding: 1vw !important;
+  padding: 3vh 0 !important;
 }
 .p2A2 .t1 {
-  left: 3vw;
+  margin-left: 2vw;
+  width: 37vw;
   top: 49vh;
   height: 48vh;
 }
 .p2A2 .line {
   top: 47vh;
   width: 36vw;
-  left: 3vw;
+  margin-left: 1.5vw;
 }
 .p2A2 .i1 {
   width: 24vw;
@@ -997,15 +1004,15 @@ ol {
 }
 .p2A4 .t1 {
   bottom: 0;
-  left: 4vw;
+  margin-left: 4vw;
 }
 .p2A4 .t2 {
   top: 10vh;
-  left: 31vw;
+  margin-left: 31vw;
 }
 .p2A4 .t3 {
   top: 0;
-  right: 4vw;
+  margin-left: 58vw;
 }
 
 .p2A5-img1{
@@ -1074,46 +1081,45 @@ ol {
 
 .p2B2 .text-con,
 .p2B3 .text-con {
-  width: 39vw;
+  width: 38vw;
   font-size: 0.5em !important;
   height: 19vh;
   overflow: hidden;
-  padding: 1vw !important;
+  padding: 3vh 0 !important;
 }
 
 .p2B2 .line {
-  top: 50vh;
-  width: 36vw;
-  left: 3vw;
+  top: 41vh;
+  width: 37vw;
+  margin-left: 1.5vw;
 }
 .p2B2 .t1 {
-  top: 20vh;
-  left: 9vw;
-  width: 32vw;
-  height: 15vh;
+  top: 13vh;
+  margin-left: 12vw;
+  width: 29vw;
+  height: 14vh;
 }
 .p2B2 .t2 {
-  top: 34vh;
-  width: 40vw;
-  height: 15vh;
-  left: 2vw;
+  top: 25vh;
+  height: 35vh;
+  margin-left: 2vw;
 }
 
 .p2B3 .line {
-  width: 36vw;
-  left: 48vw;
-  top: 50vh;
+  width: 37vw;
+  margin-left: 47.5vw;
+  top: 53vh;
 }
 .p2B3 .t1 {
-  left: 47vw;
-  top: 51vh;
-  height: 35vh;
+  margin-left: 48vw;
+  height: 30vh;
+  top: 55vh;
 }
 .p2B3 .t2 {
-  height: 13vh;
-  width: 45vw;
-  left: 41vw;
-  bottom: 4vh;
+  height: 28vh;
+  width: 46vw;
+  margin-left: 40vw;
+  top: 82vh;
 }
 
 
@@ -1240,15 +1246,15 @@ ol {
 }
 .p2C3 .t1 {
   top: 35vh;
-  left: 4vw;
+  margin-left: 4vw;
 }
 .p2C3 .t2 {
   top: 25vh;
-  left: 31vw;
+  margin-left: 31vw;
 }
 .p2C3 .t3 {
   top: 15vh;
-  right: 4vw;
+  margin-left: 58vw;
 }
 
 
@@ -1264,15 +1270,6 @@ ol {
 
 
 
-
-#detail .p3A1 .item h3 {
-  left: auto;
-  right: -26vw;
-}
-#detail .p3A1 .item .desc {
-  left: auto;
-  right: -16vw;
-}
 
 .p3B1 {
   column-count: auto !important;
@@ -1414,7 +1411,7 @@ ol {
 } 
 
 .pic-2{
-	width:23vw;
+	width:20vw;
   height:7vh;
 	top: 9vh;
   right: 14vw;
@@ -1428,7 +1425,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1464,7 +1461,7 @@ ol {
 } 
 
 .pic-4{
-	width:32vw;
+	width:23vw;
   height:7vh;
 	top: 4vh;
   right: 12vw;
@@ -1478,7 +1475,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1523,7 +1520,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1553,8 +1550,8 @@ ol {
 } 
 
 .pic-6{
-	width:25vw;
-  height:7vh;
+	width:16vw;
+  height:5vh;
 	top: 4vh;
   right: 15vw;
   position: absolute;
@@ -1567,7 +1564,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1597,8 +1594,8 @@ ol {
 } 
 
 .pic-7{
-	width:25vw;
-  height:7vh;
+	width:16vw;
+  height:5vh;
 	top: 11vh;
   right: 15vw;
   position: absolute;
@@ -1611,8 +1608,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
-
+  font-family: "EBGaramond";
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
 
@@ -1661,7 +1657,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1709,7 +1705,7 @@ ol {
 	font-size: 2vh;
   line-height:5vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1749,7 +1745,7 @@ ol {
 	font-size: 2vh;
   line-height:5vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1784,8 +1780,8 @@ ol {
 } 
 
 .pic-15{
-	width:32vw;
-  height:7vh;
+	width:28vw;
+  height:6vh;
 	bottom: 4vh;
   right: 12vw;
   position: absolute;
@@ -1798,7 +1794,7 @@ ol {
 	font-size: 2vh;
   line-height:2.3vh;
 	-webkit-text-stroke: 0.5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "EBGaramond";
 
 	border-radius: 50% 20% / 10% 40%;
   border: 2px solid var(--bgColor1);
@@ -1886,7 +1882,7 @@ ol {
 	border-radius: 50% 20% / 10% 40%;
 	color: var(--bgColor1);
 	background: transparent;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "EBGaramond";
   font-size: 1em;
   line-height: 7vh;
 	outline: none;
@@ -1918,19 +1914,19 @@ ol {
 
 .arrow-1{
   position: absolute;
-  bottom: 0.5vh;
+  margin-bottom: 0.5vh;
 	left: 2vw;
   z-index: 99999;
 }
 .arrow-2{
   position: absolute;
-  top: 38vh;
+  top: 42vh;
 	left: 4vw;
   z-index: 99999;
 }
 .arrow-3{
   position: absolute;
-  top: 43vh;
+  margin-top: 46vh;
 	left: 2vw;
   z-index: 99999;
 }
