@@ -14,5 +14,5 @@
     --prevImg1: url(assets/images/prev-000.svg);
     --nextImg1: url(assets/images/next-000.svg);
 
-    --logoBgImg: url(assets/images/logo-000.svg);
+    --logoBgImg: url(../images/logo-000.svg);
 }
