@@ -1,0 +1,11 @@
+:root{
+    --fontColor: #fff;
+    --aFontColor: #fff;
+    --bgColor1: #fff;
+    --bgColor2: #aaa;
+    --bodyBgColor: #000;
+    --backBgImg1: url(assets/images/close-fff.png);
+    --prevImg1: url(assets/images/prev-fff.png);
+    --nextImg1: url(assets/images/next-fff.png);
+    --logoBgImg: url(../images/logo-fff.svg);
+}

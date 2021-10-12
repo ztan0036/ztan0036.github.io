@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>29565936——CDS3002——P2</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/root-light.css" type="text/css" class="root">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- DO NOT REMOVE ABOVE -->
+    <!-- start here -->
+    <!------------------------------>
+    <div class="logo">
+        <a href="index.html">
+            <!-- <img src="assets/images/logo-000.svg" alt=""> -->
+        </a>
+    </div>
+
+    <!------------------------------>
+    <div class="elevator">
+        <ul>
+            <li class="elevator-item active">
+                <a href="index.html#s1"></a>
+            </li>
+            <li></li>
+            <li></li>
+            <li class="elevator-item"><a href="index.html#s2"></a></li>
+            <li></li>
+            <li></li>
+            <li class="elevator-item"><a href="index.html#s3"></a></li>
+            <li></li>
+            <li></li>
+            <li class="elevator-item"><a href="index.html#s4"></a></li>
+            <li></li>
+            <li></li>
+            <li class="elevator-item"><a href="index.html#s5"></a></li>
+            <li></li>
+            <li></li>
+            <li class="elevator-item"><a href="index.html#s6"></a></li>
+        </ul>
+    </div>
+
+    <!------------------------------>
+    <div class="wrapper p1">
+        <!---------------------------------->
+        <section class="content" id="main">
+            <!---------------------->
+            <div class="top">
+                <div class="title">
+                    <h2>
+                        <span>Melbourne<br />
+                            Spacework</span>
+                    </h2>
+                </div>
+            </div>
+            <!---------------------->
+            <div class="text-con">
+                A thriving and welcoming cafe culture, as well as a prosperous and commercial metropolis that never sleeps, have all contributed to Melbourne's development as an international destination. 
+                <br />
+                <br />What is the underlying cause of this? A more functional relationship between urban space and people is the goal of humanized urban design, according to its conceptual framework, as is a more appropriate and humane urban environment. People are more important to this type of consciousness than space itself. These three strategies, in my opinion, are extremely prudent. 
+                <br />
+                <br />These interactions are characterized by street interaction, a humanistic approach, and a concentration on people. 
+                <br />
+                <br />Emphasis should be placed on the role of public and semi-public space in this: the close relationship that exists between people and their environment.
+</div>
+        </section>
+    </div>
+
+    <div class="back">
+    </div>
+
+
+    <!------------------------------------------------------->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        $(function () {
+            const defaultHash = 's2'
+            $(".back").click(function () {
+                window.location = "index.html#" + defaultHash;
+            });
+            let index = window.location.hash.slice(2) - 1;
+            if (index === -1 || window.location.hash === defaultHash) {
+                index = 0;
+            }
+            $(".prev").click(function () {
+                index--;
+                if (index < 0) {
+                    index = 0;
+                }
+                window.location = "page1.html#d" + (index + 1);
+            });
+            $(".next").click(function () {
+                index++;
+                if (index >= 3) {
+                    index = 2;
+                }
+                window.location = "page1.html#d" + (index + 1);
+            });
+        })
+    </script>
+    <!-- DO NOT REMOVE BELOW -->
+    <!-- end here -->
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+@font-face{
+	font-family: "Lumi";
+	src: url("../font/Luminari-Regular.ttf");
+}
+@font-face{
+	font-family: "Marker";
+	src: url("../font/Marker-Felt-Wide.ttf");
+}
+#box-1{
+  width:100vw;
+  height:100vh;
+  overflow: hidden;
+  background:#000;
+}
+.ml4 {
+  position: relative;
+  font-family: "Lumi";
+  -webkit-text-stroke: 1px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  z-index: 9999;
+}
+.ml4 .loading-0 {
+  font-size: 4em;
+  position: absolute;
+  color:#ffffff;
+  margin: 0 auto;
+  left: 10vw;
+  top: 42vh;
+  opacity: 0; 
+}
+.ml4 .loading-1 {
+  font-size: 8em;
+  position: absolute;
+  color:#ffffff;
+  margin: 0 auto;
+  left: 30vw;
+  top: 42vh;
+  opacity: 0; 
+}
+#box-2{
+	width:100vw;
+	height:100vh;
+	overflow: hidden;
+	background:#000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#h1,
+.ml15 {
+	font-weight: 900;
+	font-size: 8em;
+	font-family: "Marker";
+	color:#ffffff;
+	cursor:pointer;
+}
+
+#h1{
+	display: none;
+}
+
+.ml15 .loading-2 {
+	display: inline-block;
+}
+
+
+
+
+
+
+  
+  
