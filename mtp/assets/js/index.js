@@ -36,4 +36,7 @@ $(function () {
             .removeClass("active");
         // window.location.href = "index.html#s" + (index + 1);
     });
+    if(window.navigator.userAgent.includes('Safari') && !window.navigator.userAgent.includes('Chrome')){
+        $('.root').attr('href', './assets/css/root-light-safari.css');
+    }
 });

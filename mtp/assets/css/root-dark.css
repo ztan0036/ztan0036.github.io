@@ -1,22 +1,11 @@
 :root{
     --fontColor: #fff;
-    -webkit--fontColor: #fff;
     --aFontColor: #fff;
-    -webkit--aFontColor: #fff;
     --bgColor1: #fff;
-    -webkit--bgColor1: #fff;
     --bgColor2: #aaa;
-    -webkit--bgColor2: #aaa;
     --bodyBgColor: #000;
-    -webkit--bodyBgColor: #000;
-
-
-    --backBgImg1: url(assets/images/close-fff.svg);
-
-
-    --prevImg1: url(assets/images/prev-fff.svg);
-    --nextImg1: url(assets/images/next-fff.svg);
-
-    
+    --backBgImg1: url(../images/close-fff.png);
+    --prevImg1: url(../images/prev-fff.png);
+    --nextImg1: url(../images/next-fff.png);
     --logoBgImg: url(../images/logo-fff.svg);
 }
