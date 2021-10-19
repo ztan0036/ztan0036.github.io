@@ -34,7 +34,7 @@
   position: absolute;
   color:#ffffff;
   margin: 0 auto;
-  left: 30vw;
+  left: 20vw;
   top: 42vh;
   opacity: 0; 
 }
@@ -51,8 +51,8 @@
 #h1,
 .ml15 {
 	font-weight: 900;
-	font-size: 8em;
-	font-family: "Marker";
+	font-size: 7em;
+	font-family: "Lumi";
 	color:#ffffff;
 	cursor:pointer;
 }

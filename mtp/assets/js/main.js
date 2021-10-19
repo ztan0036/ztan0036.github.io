@@ -98,7 +98,7 @@
   //         // console.log($(this));
   //         $(this)
   //           .css("top", 0)
-  //           .animate({ top: -h }, 45 * h, "linear", fn);
+  //           .animate({ top: -h }, 15 * h, "linear", fn);
   //       })
   //     );
   // });
@@ -150,7 +150,7 @@
       disableOnInteraction: false,
     },
     loop: true,
-    speed: 45 * h1,
+    speed: 80 * h1,
     mousewheel: true,
   });
   const h2 = $("#text2").outerHeight();
@@ -167,7 +167,7 @@
       disableOnInteraction: false,
     },
     loop: true,
-    speed: 45 * h2,
+    speed: 80 * h2,
     mousewheel: true,
   });
   if (
@@ -198,7 +198,7 @@
         disableOnInteraction: false,
       },
       loop: true,
-      speed: 45 * h,
+      speed: 80 * h,
       mousewheel: true,
     });
   });
