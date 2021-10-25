@@ -24,15 +24,15 @@ body {
 }
 
 a:link { 
-	color:var(--bgColor2); 
+	color:var(--bgColor1); 
   text-decoration:none; 
 } 
 a:visited { 
     color:var(--bgColor1); 
-    text-decoration:wavy; 
+    text-decoration:underline; 
 } 
 a:hover { 
-    color:var(--bgColor1); 
+    color:var(--bgColor2); 
     text-decoration:line-through; 
 } 
 a:active { 
