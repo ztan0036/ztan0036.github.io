@@ -32,11 +32,11 @@ a:visited {
     text-decoration:wavy; 
 } 
 a:hover { 
-    color:red; 
+    color:var(--bgColor1); 
     text-decoration:line-through; 
 } 
 a:active { 
-    color:yellow; 
+    color:var(--bgColor2); 
     text-decoration:none; 
 }  
 a{
