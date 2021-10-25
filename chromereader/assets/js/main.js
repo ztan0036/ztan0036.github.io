@@ -21,10 +21,10 @@ $(document).ready(function() {
         if (fs >= 5) {
           fs = 5;
           $(this).prop("disabled", true);
-          $(".content").css("font-size", fs + "vw");
+          $("#page1-content-base").css("font-size", fs + "vw");
           return;
         }
-        $(".content").css("font-size", fs + "vw");
+        $("#page1-content-base").css("font-size", fs + "vw");
         $("button").prop("disabled", false);
       });
   
@@ -35,10 +35,10 @@ $(document).ready(function() {
         if (fs <= 1) {
           fs = 1;
           $(this).prop("disabled", true);
-          $(".content").css("font-size", fs + "vw");
+          $("#page1-content-base").css("font-size", fs + "vw");
           return;
         }
-        $(".content").css("font-size", fs + "vw");
+        $("#page1-content-base").css("font-size", fs + "vw");
         $("button").prop("disabled", false);
       });
     $(".theme span").click(function () {
@@ -53,19 +53,5 @@ $(document).ready(function() {
         );
       }
     });
-  
-    $(".wrapper img").hover(
-      function () {
-        $(this).css(
-          "border-radius",
-          `${getRandom()}vw ${getRandom()}vw ${getRandom()}vw ${getRandom()}vw/${getRandom()}vw ${getRandom()}vw ${getRandom()}vw ${getRandom()}vw`
-        );
-      },
-      function () {
-        $(this).css("border-radius", "0");
-      }
-    );
-    function getRandom() {
-      return Math.round(Math.random() * 10);
-    }
+
 })();
