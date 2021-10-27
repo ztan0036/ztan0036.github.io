@@ -73,6 +73,7 @@ dt {
   font-family: "Sera";
   font-size: 2vh;
   position: absolute;
+  background-color: var(--bodyBgColor);
 }
 dd {
   margin: 0;
@@ -293,7 +294,7 @@ progress::-ms-fill {
 .index-space{
   width: 4vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   border-left: 6px solid var(--bgColor1);
