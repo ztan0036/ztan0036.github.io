@@ -601,9 +601,7 @@ progress::-ms-fill {
 .p2-2-1{
   width: 64vw;
   height: 78vh;
-  padding: 0 10vw;
   border-right: 6px solid var(--bgColor1);
-  background-color: var(--bgColor1);
 }
 .p2-2-2{
   width: 32vw;
