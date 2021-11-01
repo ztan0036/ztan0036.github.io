@@ -1,0 +1,11 @@
+:root{
+    --fontColor: #000;
+    --aFontColor: #000;
+    --bgColor1: #000;
+    --bgColor2: #999;
+    --bodyBgColor: #fff;
+    --backBgImg1: url(./assets/images/close-000.png);
+    --prevImg1: url(./assets/images/prev-000.png);
+    --nextImg1: url(./assets/images/next-000.png);
+    --logoBgImg: url(./assets/images/logo-000.svg);
+}
